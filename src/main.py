@@ -1,0 +1,13 @@
+from analysis import dataset_info,delivery_time_distribution,avg_delivery_time_by_city,avg_delivery_time_by_weather,avg_delivery_time_by_traffic,avg_delivery_time_by_vehicle,delivery_count_by_city,ratings_distribution
+from data_loader import load_data
+
+df=load_data()
+dataset_info(df)
+print(df.columns.to_list())
+delivery_time_distribution(df)
+avg_delivery_time_by_city(df)
+avg_delivery_time_by_weather(df)
+avg_delivery_time_by_traffic(df)
+avg_delivery_time_by_vehicle(df)
+delivery_count_by_city(df)
+ratings_distribution(df)
