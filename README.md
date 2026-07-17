@@ -17,3 +17,18 @@ This project analyzes food delivery data using Python and Pandas. It provides in
 - Average Delivery Time by Vehicle Type
 - Delivery Count by City
 - Ratings Distribution
+
+## Key Insights
+
+- High traffic increases delivery time.
+- Adverse weather conditions lead to slower deliveries.
+- Customer ratings decrease as delivery time increases.
+- Delivery performance varies across cities.
+- Vehicle type impacts delivery efficiency.
+
+## Recommendations
+
+- Optimize routes during peak traffic.
+- Assign suitable vehicles based on distance.
+- Improve delivery planning during bad weather.
+- Monitor low-rated deliveries for quality improvement.
